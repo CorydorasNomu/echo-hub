@@ -1,0 +1,72 @@
+/* @import './base.css'; */
+body {
+  display: block;
+  background-color: #2C3333;
+  color: antiquewhite;
+}
+
+#app {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w-full { width: 100%; }
+.w-90   { width: 90%; }
+.w-80   { width: 80%; }
+.w-20   { width: 20%; }
+.w-10   { width: 10%; }
+
+.mt-20  { margin-top: 20px; }
+.mt-10  { margin-top: 10px; }
+.mb-20  { margin-bottom: 20px; }
+.ml-20  { margin-left: 20px; }
+.mr-20  { margin-right: 20px; }
+
+.flex-base-frame-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-base-frame-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+}
+
+.flex-base-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+/** 入力フォームのスタイル */
+.text-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  position: relative;
+}
+.text-form-container input[type="text"], .text-form-container textarea {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #afafaf;
+  width: 90%;
+  resize: none;
+  color: #313131;
+  font-weight: 300;
+  border-radius: 5px;
+  font-family: "Lato", "sans-serif";
+}
+.text-form-container input[type="text"]:focus, .text-form-container input[type="text"]:hover,
+.text-form-container textarea:focus, .text-form-container textarea:hover {
+  border-color: #313131;
+}
